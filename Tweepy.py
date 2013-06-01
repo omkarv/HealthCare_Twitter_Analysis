@@ -8,20 +8,20 @@ from tweepy import Stream
 import json
 import tweepy
 
-config_json = open('config.json', 'r')
-config = json.load(config_json)
+# config_json = open('config.json', 'r')
+# config = json.load(config_json)
 
 print 
 
 # Go to http://dev.twitter.com and create an app.
 # The consumer key and secret will be generated for you.
-consumer_key = config["consumer_key"]
-consumer_secret = config["consumer_secret"]
+consumer_key = "zGBlmuESXZS6NdCamUmAA"
+consumer_secret = "H3r5u4Qtk3AzGbc87xZNOi9snlt2dQshkADbWDcn3K0"
 
 # After the step above, you will be redirected to your app's page.
 # Create an access token under the the "Your access token" section.
-access_token = config["access_token"]
-access_token_secret = config["access_token_secret"]
+access_token =   "255183803-SyGqlvV9eEnnDsVMf9k8k2Gd6lrNG2FYB8W2qKPE"
+access_token_secret = "5ziWDuqa0y1UFXkI1kfPO2AjWWKRLpBU3YWfVytTHgc"
 
 
 class StdOutListener(StreamListener):

@@ -1,11 +1,11 @@
 ###############################################################################################
 ######## VARIALBE SETTING
 ###############################################################################################
-path = 'INPUT FOLDER PATH'
-path2 = 'OUTPUT FOLDER PATH'
-#(example) path = 'C:/Users/jlee/Documents/twitter/'
-filename1 = "YOUR FILE NAME for medical words" #Created from tweepy.py 
-filename2 = "YOUR FILE NAME for hashtags" #Created from tweepy_Hashtag1.py or tweepy_hashtag2.py
+path = '/Users/vinitvedpathak/Documents/Projects/Coursera/DataScience/HealthCare_Twitter_Analysis/Tweepy Analysis'
+path2 = 'Users/vinitvedpathak/Documents/Projects/Coursera/DataScience/HealthCare_Twitter_Analysis/results'
+#(example) path = 'C:/Users/vinitvedpathak/documents/twitter/'
+filename1 = "tweepy.csv" #Created from tweepy.py 
+#filename2 = "hashfriend.csv" #Created from tweepy_Hashtag1.py or tweepy_hashtag2.py
 #(example) filename = 'inputtext.csv'
 
 

@@ -13,25 +13,25 @@ from tweepy import Stream
 import json
 import tweepy
 
-TWITTER_CONFIGS = 'config.json'
+#TWITTER_CONFIGS = 'config.json'
 MEDICAL_HASHTAGS = 'medical_hashtags.json'
 
 
 def get_twitter_configs():
-    config = json.load(open(TWITTER_CONFIGS, 'r'))
+ #   config = json.load(open(TWITTER_CONFIGS, 'r'))
     twitter_configs = namedtuple(
         'TwitterConfigs',
         'consumer_key, consumer_secret, access_token, access_token_secret')
 
     # Go to http://dev.twitter.com and create an app.
     # The consumer key and secret will be generated for you.
-    twitter_configs.consumer_key = config["consumer_key"]
-    twitter_configs.consumer_secret = config["consumer_secret"]
+    twitter_configs.consumer_key = "zGBlmuESXZS6NdCamUmAA"
+    twitter_configs.consumer_secret = "H3r5u4Qtk3AzGbc87xZNOi9snlt2dQshkADbWDcn3K0"
     
     # After the step above, you will be redirected to your app's page.
     # Create an access token under the the "Your access token" section.
-    twitter_configs.access_token = config["access_token"]
-    twitter_configs.access_token_secret = config["access_token_secret"]
+    twitter_configs.access_token = "255183803-SyGqlvV9eEnnDsVMf9k8k2Gd6lrNG2FYB8W2qKPE"
+    twitter_configs.access_token_secret = "5ziWDuqa0y1UFXkI1kfPO2AjWWKRLpBU3YWfVytTHgc"
     return twitter_configs
 
 

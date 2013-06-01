@@ -12,7 +12,7 @@
 
 3. setting variables 
 	path = your input folder's path
-	path2 = your output folder's path
+	path2 = your output folder's  
 	filename = your input csv file from step 1
 
 4. copy and paste the code to R
