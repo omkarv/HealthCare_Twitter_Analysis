@@ -37,7 +37,7 @@ def main():
     global notallowedwords
     notalloweddigits = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "/","%", "-", "#", "in",
                       "+", "_", ",", "&", ".", "(", ")",";", ":", "'"]
-    notallowedwords = ["today", "plastic", "container", "in","and", "units", "android", "tao", "fml", "plan"]
+    notallowedwords = ["today", "plastic", "container", "in","and", "units", "android", "tao", "fml", "plan", "portia", "heather", "amen", "thrive", "hr"]
     lines(inputdrugs)
 
 if __name__ == '__main__':
